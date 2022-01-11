@@ -177,6 +177,10 @@ body.scale-cv {
   column-gap: 2.5rem;
 }
 
+.scale-cv .democode__container {
+  right: 38%;
+}
+
 body {
   margin: 0 0 var(--header-height) 0;
   padding: 0;
@@ -253,6 +257,10 @@ img {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
 }
+
+.resume__right {
+  margin-top: 1.5rem;
+}
 /*========== NAV ==========*/
 .nav {
   height: var(--header-height);
@@ -273,6 +281,15 @@ img {
     border-radius: 1rem 1rem 0 0;
     z-index: var(--z-fixed);
     transition: 0.3s;
+  }
+
+  .home__button-desktop {
+    display: none;
+  }
+
+  .democode__container,
+  .democode__container0 {
+    display: none;
   }
 }
 
@@ -324,6 +341,13 @@ img {
 }
 
 /*========== HOME ==========*/
+.home__container {
+  padding-bottom: 0;
+}
+
+.home__data.bd-grid {
+  margin-top: 5rem;
+}
 .home {
   position: relative;
 }
@@ -369,20 +393,32 @@ img {
   margin-right: 0.5rem;
 }
 
-.home__button-mobile {
+.home__button-mobile,
+.home__button-desktop {
   display: inline-block;
   border: 2px solid var(--text-color);
   color: var(--title-color);
-  padding: 1rem 2rem;
+  padding: 0.6rem 1.5rem;
   border-radius: 0.25rem;
   transition: 0.3s;
   font-weight: var(--font-medium);
   margin-top: var(--mb-3);
+  margin-bottom: 1rem;
 }
 
 .home__button-mobile:hover {
   background-color: var(--text-color);
   color: var(--container-color);
+}
+
+.home__button-desktop:hover {
+  background-color: var(--text-color);
+  color: var(--container-color);
+}
+
+.my-portfolio {
+  margin: auto;
+  text-align: center;
 }
 
 /*========== SOCIAL ==========*/
@@ -403,8 +439,8 @@ img {
 }
 
 .social__icon {
-  font-size: 1.2rem;
-  margin-right: 0.25rem;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
 }
 /*========== PROFILE ==========*/
 .profile__description {
@@ -462,12 +498,60 @@ img {
   font-size: var(--smaller-font-size);
 }
 
+/*========== PROJECTS ==========*/
+.project__header {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.project__title {
+  font-size: var(--h2-font-size);
+}
+
+.project__list {
+  margin-top: 1rem;
+}
+
+.democode__container0 {
+  margin-top: 3px;
+  margin-left: 1rem;
+}
+
+.democode__container {
+  position: absolute;
+  left: 53%;
+  margin-top: 3px;
+}
+.project__link {
+  margin-left: 0.5rem;
+}
+.project__header .project__link {
+  font-size: var(--normal-font-size);
+  border: 1px solid var(--text-color);
+  color: var(--title-color);
+  background-color: transparent;
+  padding: 0.2rem 0.4rem;
+  text-align: center;
+  border-radius: 0.25rem;
+  transition: 0.3s;
+  font-weight: var(--font-medium);
+}
+
+.project__header .project__link:hover {
+  background-color: var(--text-color);
+  color: var(--container-color);
+}
+
 /*========== SKILLS AND LANGUAGES ==========*/
 .skills__content,
 .languages__content {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.skills__content.skills__data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .skills__name {
   display: flex;
   align-items: center;
@@ -475,7 +559,8 @@ img {
 }
 
 .skills__circle,
-.languages__circle {
+.languages__circle,
+.projects__circle {
   display: inline-block;
   width: 5px;
   height: 5px;
@@ -553,6 +638,13 @@ img {
   .nav__list {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem 0.5rem;
+  }
+  .home__button-desktop {
+    display: none;
+  }
+  .democode__container,
+  .democode__container0 {
+    display: none;
   }
 }
 /* For small devices, menu two columns */
