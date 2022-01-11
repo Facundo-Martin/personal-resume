@@ -259,7 +259,10 @@ img {
 }
 
 .resume__right {
-  margin-top: 1.5rem;
+  margin-top: 2.05rem;
+}
+.resume__right .experience {
+  margin-top: 0.65rem;
 }
 /*========== NAV ==========*/
 .nav {
