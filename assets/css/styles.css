@@ -498,6 +498,24 @@ img {
   font-size: var(--smaller-font-size);
 }
 
+/*========== ADJUSTMENTS ==========*/
+.resume__right .section {
+  padding: 1rem;
+}
+
+section .skills {
+  margin-top: 1.4rem;
+}
+
+section .education {
+  margin-top: 1.5rem;
+  padding: 0;
+}
+
+.profile .section-title {
+  margin-top: 0.5rem;
+}
+
 /*========== PROJECTS ==========*/
 .project__header {
   display: flex;
@@ -519,7 +537,7 @@ img {
 
 .democode__container {
   position: absolute;
-  left: 53%;
+  left: 54%;
   margin-top: 3px;
 }
 .project__link {
