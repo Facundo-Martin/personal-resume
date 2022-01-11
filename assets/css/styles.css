@@ -59,10 +59,10 @@ body.dark-theme {
 .change-theme {
   position: absolute;
   right: 0;
-  top: 2.2rem;
+  top: 0.8rem;
   display: flex;
   color: var(--text-color);
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   cursor: pointer;
 }
 
@@ -82,9 +82,9 @@ body.scale-cv {
 .generate-pdf {
   display: none;
   position: absolute;
-  top: 2.2rem;
-  left: 0;
-  font-size: 1.2rem;
+  top: 0.8rem;
+  right: 10%;
+  font-size: 1.3rem;
   color: var(--text-color);
   cursor: pointer;
 }
@@ -346,7 +346,7 @@ img {
 }
 
 .home__data.bd-grid {
-  margin-top: 5rem;
+  margin-top: 1.8rem;
 }
 .home {
   position: relative;
