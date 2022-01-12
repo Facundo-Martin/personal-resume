@@ -1,8 +1,8 @@
-# Responsive Resume Cv Smith
-## [Watch it on youtube]()
-### Responsive Resume Cv Smith
-Beautiful Responsive resume cv website 📄 using html, css and javascript. Light dark mode 🌗 and PDF export.
+Responsive Resume Website
 
-Don't forget to join the channel for more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
+Personal Resume inspired in one of [Bedimcode](https://www.youtube.com/c/Bedimcode)'s designs. You can see his design [here](https://www.youtube.com/watch?v=oYjseP_Qhv4&t=171s)
 
 ![Resume cv](/preview.png)
+
+Check the [Live Demo](https://facundo-martin.github.io/personal-resume/)
+
