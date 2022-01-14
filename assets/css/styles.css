@@ -715,6 +715,9 @@ section .education {
     right: 20%;
     top: 20%;
   }
+  .profile .about__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* For small devices, menu two columns */
